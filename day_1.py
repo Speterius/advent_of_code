@@ -18,7 +18,7 @@ def total_fuel(mass: int) -> int:
 def main():
     # Read the data:
     data = []
-    for line, _ in read_input_lines(file_name='day_01_part_1.txt'):
+    for line, _ in read_input_lines(file_name='day_01.txt'):
         data.append(int(line))
     data = np.array(data)
 
