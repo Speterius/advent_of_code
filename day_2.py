@@ -17,7 +17,7 @@ def int_program(code, i=0):
 def main():
     # Read the data:
     intcode = []
-    for line, _ in read_input_lines(file_name='day_02.txt'):
+    for line, _ in read_input_lines(file_name='day_2.txt'):
         intcode = line.split(",")
     intcode = [int(i) for i in intcode]
     intcode_original = tuple(intcode)
